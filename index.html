@@ -9,14 +9,17 @@
   <body>
     <header class="header">
       <div class="dappr-logo">
-        <img src="images/dappr-logo.png" />
+        <img src="images/dpr.png" />
       </div>
       <nav>
         <ul class="nav-links">
           <li class="nav-link">Home</li>
           <li class="nav-link">About Us</li>
           <li class="nav-link">Information</li>
-          <li class="nav-link">More</li>
+          <li class="nav-link">
+            More
+            <div class="drop-down-icon"><img src="images/drop.svg" /></div>
+          </li>
           <div class="input-wrapper">
             <div class="search-icon-wrapper">
               <img src="images/search.svg" />
@@ -30,37 +33,81 @@
       </div>
     </header>
 
+    <div class="social-icons-wrapper">
+      <div class="social-icon-wrapper">
+        <img src="images/wa.png" />
+      </div>
+      <div class="social-icon-wrapper">
+        <img src="images/fb.png" />
+      </div>
+      <div class="social-icon-wrapper">
+        <img src="images/tw.png" />
+      </div>
+    </div>
+
     <main class="main-wrapper">
+      
+      
       <section class="banner-text-wrapper">
         <div class="banner-box">
           <img src="images/Desktop.png" />
         </div>
         <div class="text-box">
-            <textarea>
-                It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......
+          <textarea>
+It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......
             </textarea
-        >
+          >
         </div>
       </section>
+      
 
       <section class="que-ans-wrapper">
         <div class="box">
-            <p>Total Question's</p>
-            <p>200,000</p>
+          <p>Total Question's</p>
+          <p>200,000</p>
         </div>
         <div class="box">
-            <p>Total Answer's</p>
-            <p>105,000</p>
+          <p>Total Answer's</p>
+          <p>105,000</p>
         </div>
         <div class="box">
-            <p>Participated</p>
-            <p>10,000</p>
+          <p>Participated</p>
+          <p>10,000</p>
         </div>
         <div class="box">
-            <p>Total Passed</p>
-            <p>6,000</p>
+          <p>Total Passed</p>
+          <p>6,000</p>
         </div>
       </section>
+
+      <section class="info-button-container">
+        <div class="buttons-container">
+          <div class="button-wrapper">
+            <button >YOUR INFO</button>
+          </div>
+          <div class="button-wrapper">
+            <button>BOOKMARKS</button>
+          </div>
+          <div class="button-wrapper">
+            <button>SETTINGS</button>
+          </div>
+        </div>
+        <div class="info-wrapper">
+          <h2 class="info-heading">Your Information</h2>
+          <p class="field-name">Name &nbsp;&nbsp;:<span class="field-value"> Atul Singhal</span></p>
+          <p class="field-name">Email &nbsp;&nbsp;:<span class="field-value"> atul@gmail.com</span></p>
+          <p class="field-name">Phone&nbsp;&nbsp;:<span class="field-value"> +91 8131424888</span></p>
+          <p class="field-name" id="last-para">Marks&nbsp;&nbsp;:<span class="field-value"> 500.00</span></p>
+          
+            <div class="next-button-wrapper">
+              <button id="next-button"><span>Next</span> &nbsp;<img class='arpng' src="images/ar.png"/></button>
+            </div>
+          
+        </div>
+      </section>
+      <img src="images/hp.png" class="help-logo-wrapper" />
     </main>
   </body>
 </html>
+
+
